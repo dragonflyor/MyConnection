@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yuzhi.fine.myActivity.TenantConnectionActivity"
+    >
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_title"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="租客信息录入"-->
+        <!--android:padding="15dp"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:textSize="26sp"-->
+        <!--android:textColor="@android:color/white"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:background="@color/red"/>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_below="@+id/tv_title"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<com.yuzhi.fine.view.EditInputItemView-->
+
+            <!--android:id="@+id/eiv_name"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:mtitle="姓名"-->
+            <!--app:mhint="请输入姓名"/>-->
+
+        <!--&lt;!&ndash;<com.yuzhi.fine.view.EditInputItemView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;app:mtitle="性别"&ndash;&gt;-->
+            <!--&lt;!&ndash;app:mhint="请输入性别"/>&ndash;&gt;-->
+
+
+        <!--<com.yuzhi.fine.view.ChooseInputItemView-->
+            <!--android:id="@+id/civ_gender"-->
+            <!--app:mtitle_civ="性别"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"/>-->
+
+
+        <!--&lt;!&ndash;<com.yuzhi.fine.view.EditInputItemView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;app:mtitle="证件型号"&ndash;&gt;-->
+            <!--&lt;!&ndash;app:mhint="请输入证件型号"/>&ndash;&gt;-->
+        <!--<com.yuzhi.fine.view.ChooseInputItemView-->
+            <!--android:id="@+id/civ_cardtype"-->
+            <!--app:mtitle_civ="证件型号"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+
+
+
+        <!--<com.yuzhi.fine.view.EditInputItemView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:mtitle="证件号码"-->
+            <!--app:mhint="请输入证件号码"/>-->
+
+
+
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:background="@android:color/darker_gray"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_marginBottom="5dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginRight="10dp"/>-->
+
+        <!--<com.yuzhi.fine.view.EditInputItemView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:mtitle="房号"-->
+            <!--app:mhint="请输入房号"/>-->
+        <!--<com.yuzhi.fine.view.EditInputItemView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:mtitle="地址"-->
+            <!--app:mhint="详细地址"/>-->
+        <!--<com.yuzhi.fine.view.EditInputItemView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:mtitle="入住时间"-->
+            <!--app:mhint="请输入入住时间"/>-->
+        <!--<com.yuzhi.fine.view.EditInputItemView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:mtitle="退房时间"-->
+            <!--app:mhint="请输入退房时间"/>-->
+
+
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:background="@android:color/background_dark"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_marginBottom="5dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginRight="10dp"/>-->
+
+        <!--<Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="提交"-->
+
+            <!--/>-->
+
+
+
+    <!--</LinearLayout>-->
+
+<!--dsfssadasssssssssssssssssssssssssssssssssssssssssssssssssssssss-->
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="租客信息录入"
+        android:padding="15dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="26sp"
+        android:textColor="@android:color/white"
+        android:gravity="center_horizontal"
+        android:background="@color/red"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.yuzhi.fine.view.EditInputItemView
+
+                    android:id="@+id/eiv_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:mtitle="姓名"
+                    app:mhint="请输入姓名"
+                    android:layout_weight="2"/>
+                <!--<com.yuzhi.fine.view.EditInputItemView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--app:mtitle="性别"-->
+                <!--app:mhint="请输入性别"/>-->
+                <com.yuzhi.fine.view.ChooseInputItemView
+                    android:id="@+id/civ_gender"
+                    app:mtitle_civ="性别"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"/>
+
+            </LinearLayout>
+
+            <com.yuzhi.fine.view.EditInputItemView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:mtitle="籍贯"
+                />
+
+            <com.yuzhi.fine.view.EditInputItemView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:mtitle="家庭地址"
+                />
+
+
+
+            <!--<com.yuzhi.fine.view.EditInputItemView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:mtitle="证件型号"-->
+            <!--app:mhint="请输入证件型号"/>-->
+            <com.yuzhi.fine.view.ChooseInputItemView
+                android:id="@+id/civ_cardtype"
+                app:mtitle_civ="证件型号"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+            <com.yuzhi.fine.view.EditInputItemView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mtitle="证件号码"
+                app:mhint="请输入证件号码"/>
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <com.yuzhi.fine.view.EditInputItemView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mtitle="房号"
+                app:mhint="请输入房号"/>
+            <com.yuzhi.fine.view.EditInputItemView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mtitle="地址"
+                app:mhint="详细地址"/>
+            <com.yuzhi.fine.view.EditInputItemView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mtitle="起租时间"
+                app:mhint="请输入起租时间"/>
+            <com.yuzhi.fine.view.EditInputItemView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mtitle="退租时间"
+                app:mhint="请输入退租时间"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/background_dark"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+
+                    android:layout_gravity="center"
+                    android:src="@android:drawable/ic_menu_info_details"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="证件照片"
+                    android:id="@+id/iv_card"
+                    />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/background_dark"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+
+                <ImageView
+                    android:src="@android:drawable/ic_menu_info_details"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="人像照片"
+                    android:id="@+id/iv_head"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="证件照片"
+                    android:id="@+id/btn_pic_card"
+                    />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="人像照片"
+                    android:id="@+id/btn_pic_header"
+                    />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/background_dark"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="提交"
+
+                />
+
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</RelativeLayout>
+
+
