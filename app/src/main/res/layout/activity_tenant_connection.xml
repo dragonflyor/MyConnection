@@ -315,14 +315,18 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"/>
 
+            <com.yuzhi.fine.view.ChooseDateInputView
+                app:mtitle_cdv="时间选择:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="提交"
-
+                android:hint="请选择时间"
+                android:onClick="submit"
                 />
-
-
 
 
         </LinearLayout>
