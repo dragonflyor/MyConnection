@@ -65,9 +65,6 @@ public class ChooseInputItemView extends RelativeLayout{
         bSInput = (BetterSpinner) findViewById(R.id.bs_input);
 
 
-
-
-
         //设置标题
         tvTitle.setText(mTitle);
         bSInput.setText(mEditText);
